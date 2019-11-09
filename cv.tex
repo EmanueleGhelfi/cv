@@ -1,0 +1,335 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% "ModernCV" CV and Cover Letter
+% LaTeX Template
+% Version 1.3 (29/10/16)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Xavier Danaux (xdanaux@gmail.com) with modifications by:
+% Vel (vel@latextemplates.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template requires the moderncv.cls and .sty files to be in the same 
+% directory as this .tex file. These files provide the resume style and themes 
+% used for structuring the document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[11pt,a4paper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+
+\moderncvstyle{casual} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+
+\moderncvicons{awesome}                     
+
+\usepackage{moderntimeline}
+
+% Set the scale.
+% I go up to 2013 otherwise some late dates overflow on the entry
+\tlmaxdates{2008}{2019}
+% Set the line width.
+% This automatically sets the space under the top label to be 1pt more
+\tlwidth{0.8ex}
+% Set the labels text size
+\tltext{\tiny}
+
+\usepackage[T1]{fontenc}
+
+\usepackage[scale=0.75]{geometry} % Reduce document margins
+%\setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
+%\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION SECTION
+%----------------------------------------------------------------------------------------
+
+\firstname{Emanuele} % Your first name
+\familyname{Ghelfi} % Your last name
+
+% All information in this block is optional, comment out any lines you don't need
+\title{Curriculum Vitae}
+%\address{via Avalli 61}{Polesine Parmense, Parma}
+\mobile{(+39) 328 8219218}
+\email{manughelfi1994@gmail.com}
+\homepage{emanueleghelfi.github.io} % The first argument is the url for the clickable link, the second argument is the url displayed in the template - this allows special characters to be displayed such as the tilde in this example
+\social[github]{github.com/EmanueleGhelfi}
+\social[twitter]{manughelfi}
+\extrainfo{\href{https://www.slideshare.net/EmanueleGhelfi}{slideshare.net/EmanueleGhelfi}
+}
+\photo[80pt][0.4pt]{pictures/manu} % The first bracket is the picture height, the second is the thickness of the frame around the picture (0pt for no frame)
+%\quote{"Sometimes it is the people no one can imagine anything of who do the things no one can imagine." Alan Turing}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	CURRICULUM VITAE
+%----------------------------------------------------------------------------------------
+
+\makecvtitle % Print the CV title
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Overview}
+
+I received the M.Sc. Degree in Computer Science and Engineering at Politecnico di Milano with 110L/110 in December 2018. In particular I followed the Artificial Intelligence track. The AI track includes courses like Game Theory, Machine Learning, Robotics, Image Analysis and Computer Vision, Autonomous Agent and MultiAgent Systems and Natural Language Processing.\newline{}
+My master thesis is located in the Machine Learning field, and more precisely in the Reinforcement Learning field. \newline
+Since November 2018, I have been working as a Machine Learning and Computer Vision Engineer at Zuru Tech Italy.
+\section{Education}
+
+\tlcventry{2016}{2018}{M.Sc. Computer Science and Engineering}{Politecnico di Milano}{Artificial Intelligence Track}{\textit{110L/110}}{Thesis: "Reinforcement Learning in Configurable Environments: an information theoretic approach" (accepted at ICML 2019). Supervisors: Marcello Restelli, Alberto Maria Metelli. \newline{}
+	\begin{itemize}
+		\item Thesis: \href{https://www.politesi.polimi.it/handle/10589/144736}{politesi.polimi.it/handle/10589/144736}
+		\item Code: \href{https://github.com/albertometelli/remps}{github.com/albertometelli/remps}
+		\item Slides: \href{https://www.slideshare.net/EmanueleGhelfi/reinforcement-learning-in-configurable-environments}{slideshare.net/EmanueleGhelfi/reinforcement-learning-in-configurable-environments} \hfil
+	\end{itemize}
+}
+\tlcventry{2013}{2016}{Bachelor Degree in Computer Science and Engineering}{Politecnico di Milano}{Cremona}{\textit{110L/110L}}{}
+\tlcventry{2008}{2013}{Scientific High School Diploma}{Liceo Scientifico Tecnologico A. Berenini}{Fidenza}{\textit{100/100}}{}
+
+\pagebreak
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Experience}
+
+\tlcventry{2018}{0}{Machine Learning and Computer Vision Engineer}{\textsc{Zuru Tech Italy}}{Modena}{}{At Zuru Tech Italy I hold the role of Machine Learning and Computer Vision Engineer.\newline{} I'm involved in tasks like:
+\begin{itemize}
+	\item Anomaly detection
+	\item Generative Adversarial Models (GANs) applied to various problems
+	\item Computer Vision applied to industrial processes
+	\item Sequence Modeling through Recurrent Models (LSTM)
+	\item Machine Learning models deployment on Google Cloud Platform
+\end{itemize}
+For all these tasks I cover the steps of solution design, algorithm implementation, algorithm evaluation, solution deployment.
+}
+
+\tldatecventry{2016}{Mobile Development}{\textsc{Xonne}}{Parma}{}{Research and Development about Unity3D, GearVR and Cardboard. Mobile development for Android.}
+
+%------------------------------------------------
+
+\tlcventry{2015}{2016}{Web Development}{}{}{}{Front-end and Back-end development with AngularJS for a website of a cultural event in Vernasca.
+Development and deployment of a web server in Python with Flask. 
+%\newline{}
+%Technologies:
+%\begin{itemize}
+%\item	HTML5
+%\item	AngularJS
+%\item	Python - Flask
+%\item	Apache
+%\item	MySQL Server
+%\item	CSS3
+%\item	GIT
+%\end{itemize}
+}
+
+\tldatecventry{2015}{Student Apprentice}{\textsc{Xonne}}{Parma}{}{Development of Android application with access to REST services and persistence of data. 
+Research regarding Unity3D for game development and Augmented Reality.
+%\newline{}
+%Arguments:
+%\begin{itemize}
+%\item Android
+%\item Java
+%\item C \#
+%\item Augmented Reality
+%\item Networking Principle
+%\item Programming logic
+%\end{itemize}
+}
+
+\tldatecventry{2014}{Student Apprentice}{\textsc{Politecnico di Milano}}{Cremona}{}{Development of a WebApp for News' visualization.
+%\newline{}
+%Arguments:
+%\begin{itemize}
+%\item Javascript
+%\item HTML
+%\item JQuery
+%\item CSS
+%\end{itemize}
+}
+
+%%\tldatecventry{2012}{Student Apprentice}{\textsc{Universita' di Parma}}{Informatics Department}{}{Development of a mini Android App. Foundamentals of Java language and OOP.}
+
+%%\tldatecventry{2012}{Student Apprentice}{\textsc{Universita' di Parma}}{Physics Department}{}{}
+
+%----------------------------------------------------------------------------------------
+%	Publications SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Publications}
+
+\cvitem{28-06-2019}{\textbf{A Survey on GANs for Anomaly Detection.} arXiv e-print. \href{https://arxiv.org/abs/1906.11632}{https://arxiv.org/abs/1906.11632}.}
+\cvitem{27-06-2019}{\textbf{Adversarial Pixel-Level Generation of Semantic Images.} arXiv e-print. \href{https://arxiv.org/abs/1906.12195}{https://arxiv.org/abs/1906.12195}.}
+\cvitem{01-05-2019}{\textbf{Reinforcement Learning in Configurable Continuous Environments.} Proceedings of the 36th International Conference on Machine Learning (ICML 2019). \href{http://proceedings.mlr.press/v97/metelli19a.html}{http://proceedings.mlr.press/v97/metelli19a.html}.}
+
+\section{Talks}
+
+\cvitem{02-09-2019}{\textbf{Deep Diving into GANs: From Theory to Production with TensorFlow 2.0.} EuroSciPy 2019, Bilbao, Spain.
+\begin{itemize}
+	\item EuroSciPy: \href{https://pretalx.com/euroscipy-2019/talk/Q79NND/}{pretalx.com/euroscipy-2019/talk/Q79NND/}
+	\item Github: \href{https://github.com/zurutech/gans-from-theory-to-production}{github.com/zurutech/gans-from-theory-to-production}
+	\item Slides: \href{https://www.slideshare.net/EmanueleGhelfi/euroscipy-2019-gans-theory-and-applications}{slideshare.net/EmanueleGhelfi/euroscipy-2019-gans-theory-and-applications} 
+\end{itemize}
+}
+
+\cvitem{04-05-2019}{\textbf{Deep Diving Into GANs: From Theory To Production.} PyConX 2019, Florence, Italy.
+\begin{itemize}
+	\item PyConX: \href{https://www.pycon.it/conference/talks/deep-diving-into-gans-form-theory-to-production}{pycon.it/conference/talks/deep-diving-into-gans-form-theory-to-production}
+	\item Github: \href{https://github.com/zurutech/gans-from-theory-to-production}{github.com/zurutech/gans-from-theory-to-production}
+	\item Slides: \href{https://www.slideshare.net/EmanueleGhelfi/gan-theory-and-applications-143737572}{slideshare.net/EmanueleGhelfi/gan-theory-and-applications-143737572}
+\end{itemize}
+}
+
+
+%----------------------------------------------------------------------------------------
+%	AWARDS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Awards}
+
+\cvitem{2013}{Scholarship "Percorsi di Eccellenza" during Bachelor Degree at Politecnico di Milano. Scholarship for worthy students.}
+
+\section{Projects}
+
+\tldatecventry{2018}{Learning to Run}{Deep Learning Project}{}{}{
+Topics: Deep Reinforcement Learning.
+\newline{} \hfill
+The project takes inspiration from the 2017 NIPS Competition: \href{https://www.crowdai.org/challenges/nips-2017-learning-to-run}{crowdai.org/challenges/nips-2017-learning-to-run}.
+\hfill \newline{}
+In this competition, you are tasked with developing a controller to enable a physiologically-based human model to navigate a complex obstacle course as quickly as possible. You are provided with a human musculoskeletal model and a physics-based simulation environment where you can synthesize physically and physiologically accurate motion. Potential obstacles include external obstacles like steps, or a slippery floor, along with internal obstacles like muscle weakness or motor noise. You are scored based on the distance you travel through the obstacle course in a set amount of time.
+The aim of the project is to study the problem and try to apply Deep Reinforcement Learning algorithms to replicate results of the top teams.
+\begin{itemize}
+	\item Code: \href{https://github.com/MultiBeerBandits/learning-to-run}{github.com/MultiBeerBandits/learning-to-run}
+	\item Video: \href{https://www.youtube.com/watch?v=HVOrhxypOGg}{youtube.com/watch?v=HVOrhxypOGg}
+	\item Slides: \href{https://www.slideshare.net/EmanueleGhelfi/learning-to-run-138950609}{slideshare.net/EmanueleGhelfi/learning-to-run-138950609}
+\end{itemize}
+}
+
+\tldatecventry{2018}{Computer Vision for Computer Art. A pencil writing on a virtual plane}{Image Analysis and Computer Vision Project}{}{}
+{
+Topics: Image Analysis, Feature Extraction, Tracking, Camera Calibration, 3D reconstruction. \newline{}
+Wouldn't be great to write or draw on any surface, without the need of ink, and obtain the result in digitalized format? The task of this project is to develop an algorithm that, given a video of someone drawing using a pen without ink, recovers the 3D trajectory of the pencil tip.
+Given that, it is possible to reconstruct the drawing, by simply keeping the part of the trajectory near the writing surface. 
+The project is implemented in MATLAB.
+\begin{itemize}
+	\item Code: \href{https://github.com/EmilianoGagliardiEmanueleGhelfi/inkless-painting}{github.com/EmilianoGagliardiEmanueleGhelfi/inkless-painting}
+	\item Video: \href{https://www.youtube.com/watch?v=U7XAzXeBx-U}{youtube.com/watch?v=U7XAzXeBx-U}
+\end{itemize}
+}
+
+\tlcventry{2017}{2018}{Recommender System Challenge @ Polimi: Music Recommendation}{Recommender Systems Project}{}{}
+{
+Topics: Machine Learning, Recommender System, Personalized Recommendation.
+\newline{}
+I took part to the annual Kaggle competition on Recommender Systems held by Politecnico di Milano in 2017. That year topic was music recommendation, so we implemented and trained several Machine Learning algorithms to suggest songs to users based on their tastes.
+\newline{}
+We placed among the best teams in the competition and we were invited to present our approach and solutions to the recommendation problem[1].
+\newline{}
+We used Python, Numpy/Scipy, Jupyter Notebooks and C++ as technology tools to efficiently implement our ideas.
+\newline{}
+[1] https://www.slideshare.net/EmanueleGhelfi/recommender-system-challenge
+\begin{itemize}
+	\item Code: \href{https://github.com/MultiBeerBandits/recsys\_challenge\_2017}{github.com/MultiBeerBandits/recsys\_challenge\_2017}
+	\item Slides: \href{https://www.slideshare.net/EmanueleGhelfi/recommender-system-challenge}{slideshare.net/EmanueleGhelfi/recommender-system-challenge}
+\end{itemize}
+}
+
+
+\tldatecventry{2017}{CNN Quantization - Performance Evaluation}{Advanced Computer Architecture Project}{}{}
+{
+Topics: Convolutional Neural Networks, Quantization, Performance, Cache, Tensorflow, Caffe. 
+\newline{}
+For real world application, convolutional neural network(CNN) model can take more than 100MB of space and can be computationally too expensive. Therefore, there are multiple methods to reduce this complexity in the state of art. Ristretto is a plug-in to Caffe framework that employs several model approximation methods. For this project, first a CNN model is trained for Cifar-10 dataset with Caffe, then Ristretto will be used to generate multiple approximated versions of the trained model using different schemes. The goal of this project is the comparison of the models in terms of execution performance, model size and cache efficiency in the test and inference phase. The same steps are done with Tensorflow and Quantisation tool. The quantisation schemes of Tensorflow and Ristretto are then compared.
+\newline{}
+\begin{itemize}
+	\item Code: \href{https://github.com/EmilianoGagliardiEmanueleGhelfi/CNN-compression-performance}{github.com/EmilianoGagliardiEmanueleGhelfi/CNN-compression-performance}
+	\item Slides: \href{https://www.slideshare.net/EmanueleGhelfi/cnn-quantization}{slideshare.net/EmanueleGhelfi/cnn-quantization}
+\end{itemize}
+}
+
+
+%----------------------------------------------------------------------------------------
+%	COMPUTER SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Competences}
+
+\cventry{}{Programming Languages}{}{}{}
+{
+\begin{itemize}
+\item Python
+\item Matlab
+\item C++
+\item Java
+\item C \#
+\item C
+\end{itemize}
+}
+\cventry{}{Robotics}{}{}{}
+{
+\begin{itemize}
+\item SLAM
+\item ROS (Robot Operating System)
+\item Gazebo (Simulation Environment)
+\end{itemize}
+}
+\cventry{}{Machine Learning Frameworks}{}{}{}
+{
+\begin{itemize}
+\item Tensorflow
+\item Keras
+\item Caffe (and Ristretto Plugin)
+\end{itemize}
+}
+\cventry{}{Other Competences}{}{}{}
+{
+\begin{itemize}
+\item Numpy
+\item Scipy
+\item Scikit-learn
+\item Pandas
+\item OpenCV
+\item Latex
+\item Unity3D
+\item Vuforia, Framework for AR
+\end{itemize}
+}
+
+
+%----------------------------------------------------------------------------------------
+%	COMMUNICATION SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+%----------------------------------------------------------------------------------------
+%	LANGUAGES SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Languages}
+
+\cvitemwithcomment{Italian}{Mother tongue}{}
+\cvitemwithcomment{English}{Intermediate}{level B2 with TOEIC certification (475 Listening + 470 Reading = 945/990)}
+
+\section{Privacy}
+%Autorizzo il trattamento dei dati personali contenuti nel mio curriculum vitae in base art. 13 del D. Lgs. 196/2003.
+In compliance with the Italian legislative Decree no. 196 dated 30/06/2003, I hereby authorize you to use and process my personal details contained in this document.
+
+%----------------------------------------------------------------------------------------
+%	INTERESTS SECTION
+%----------------------------------------------------------------------------------------
+%----------------------------------------------------------------------------------------
+
+\end{document}
