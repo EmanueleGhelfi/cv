@@ -44,7 +44,7 @@
 
 \usepackage[T1]{fontenc}
 
-\usepackage[scale=0.75]{geometry} % Reduce document margins
+\usepackage[scale=0.9]{geometry} % Reduce document margins
 %\setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
 %\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
 
@@ -58,14 +58,14 @@
 % All information in this block is optional, comment out any lines you don't need
 \title{Curriculum Vitae}
 %\address{via Avalli 61}{Polesine Parmense, Parma}
-\mobile{(+39) 328 8219218}
-\email{manughelfi1994@gmail.com}
-\homepage{emanueleghelfi.github.io} % The first argument is the url for the clickable link, the second argument is the url displayed in the template - this allows special characters to be displayed such as the tilde in this example
+%\mobile{(+39) 328 8219218}
+%\email{manughelfi1994@gmail.com}
+\homepage{eghelfi.xyz} % The first argument is the url for the clickable link, the second argument is the url displayed in the template - this allows special characters to be displayed such as the tilde in this example
 \social[github]{github.com/EmanueleGhelfi}
-\social[twitter]{manughelfi}
+%\social[twitter]{manughelfi}
 \extrainfo{\href{https://www.slideshare.net/EmanueleGhelfi}{slideshare.net/EmanueleGhelfi}
 }
-\photo[80pt][0.4pt]{pictures/manu} % The first bracket is the picture height, the second is the thickness of the frame around the picture (0pt for no frame)
+\photo[40pt][0.4pt]{pictures/manu} % The first bracket is the picture height, the second is the thickness of the frame around the picture (0pt for no frame)
 %\quote{"Sometimes it is the people no one can imagine anything of who do the things no one can imagine." Alan Turing}
 
 %----------------------------------------------------------------------------------------
@@ -82,6 +82,7 @@
 %	EDUCATION SECTION
 %----------------------------------------------------------------------------------------
 
+\vspace{-1.5cm}
 \section{Overview}
 
 I received the M.Sc. Degree in Computer Science and Engineering at Politecnico di Milano with 110L/110 in December 2018. In particular I followed the Artificial Intelligence track. The AI track includes courses like Game Theory, Machine Learning, Robotics, Image Analysis and Computer Vision, Autonomous Agent and MultiAgent Systems and Natural Language Processing.\newline{}
@@ -89,7 +90,7 @@ My master thesis is located in the Machine Learning field, and more precisely in
 Since November 2018, I have been working as a Machine Learning and Computer Vision Engineer at Zuru Tech Italy.
 \section{Education}
 
-\tlcventry{2016}{2018}{M.Sc. Computer Science and Engineering}{Politecnico di Milano}{Artificial Intelligence Track}{\textit{110L/110}}{Thesis: "Reinforcement Learning in Configurable Environments: an information theoretic approach" (accepted at ICML 2019). Supervisors: Marcello Restelli, Alberto Maria Metelli. \newline{}
+\tlcventry{2016}{2018}{M.Sc. Computer Science and Engineering}{Politecnico di Milano}{Artificial Intelligence Track}{\textit{110L/110}}{Thesis: "Reinforcement Learning in Configurable Environments: an information theoretic approach" (accepted at ICML 2019). Supervisors: Marcello Restelli, Alberto Maria Metelli.
 	\begin{itemize}
 		\item Thesis: \href{https://www.politesi.polimi.it/handle/10589/144736}{politesi.polimi.it/handle/10589/144736}
 		\item Code: \href{https://github.com/albertometelli/remps}{github.com/albertometelli/remps}
@@ -98,8 +99,6 @@ Since November 2018, I have been working as a Machine Learning and Computer Visi
 }
 \tlcventry{2013}{2016}{Bachelor Degree in Computer Science and Engineering}{Politecnico di Milano}{Cremona}{\textit{110L/110L}}{}
 \tlcventry{2008}{2013}{Scientific High School Diploma}{Liceo Scientifico Tecnologico A. Berenini}{Fidenza}{\textit{100/100}}{}
-
-\pagebreak
 
 %----------------------------------------------------------------------------------------
 %	WORK EXPERIENCE SECTION
@@ -117,54 +116,6 @@ Since November 2018, I have been working as a Machine Learning and Computer Visi
 \end{itemize}
 For all these tasks I cover the steps of solution design, algorithm implementation, algorithm evaluation, solution deployment.
 }
-
-\tldatecventry{2016}{Mobile Development}{\textsc{Xonne}}{Parma}{}{Research and Development about Unity3D, GearVR and Cardboard. Mobile development for Android.}
-
-%------------------------------------------------
-
-\tlcventry{2015}{2016}{Web Development}{}{}{}{Front-end and Back-end development with AngularJS for a website of a cultural event in Vernasca.
-Development and deployment of a web server in Python with Flask. 
-%\newline{}
-%Technologies:
-%\begin{itemize}
-%\item	HTML5
-%\item	AngularJS
-%\item	Python - Flask
-%\item	Apache
-%\item	MySQL Server
-%\item	CSS3
-%\item	GIT
-%\end{itemize}
-}
-
-\tldatecventry{2015}{Student Apprentice}{\textsc{Xonne}}{Parma}{}{Development of Android application with access to REST services and persistence of data. 
-Research regarding Unity3D for game development and Augmented Reality.
-%\newline{}
-%Arguments:
-%\begin{itemize}
-%\item Android
-%\item Java
-%\item C \#
-%\item Augmented Reality
-%\item Networking Principle
-%\item Programming logic
-%\end{itemize}
-}
-
-\tldatecventry{2014}{Student Apprentice}{\textsc{Politecnico di Milano}}{Cremona}{}{Development of a WebApp for News' visualization.
-%\newline{}
-%Arguments:
-%\begin{itemize}
-%\item Javascript
-%\item HTML
-%\item JQuery
-%\item CSS
-%\end{itemize}
-}
-
-%%\tldatecventry{2012}{Student Apprentice}{\textsc{Universita' di Parma}}{Informatics Department}{}{Development of a mini Android App. Foundamentals of Java language and OOP.}
-
-%%\tldatecventry{2012}{Student Apprentice}{\textsc{Universita' di Parma}}{Physics Department}{}{}
 
 %----------------------------------------------------------------------------------------
 %	Publications SECTION
@@ -207,11 +158,6 @@ Research regarding Unity3D for game development and Augmented Reality.
 
 \tldatecventry{2018}{Learning to Run}{Deep Learning Project}{}{}{
 Topics: Deep Reinforcement Learning.
-\newline{} \hfill
-The project takes inspiration from the 2017 NIPS Competition: \href{https://www.crowdai.org/challenges/nips-2017-learning-to-run}{crowdai.org/challenges/nips-2017-learning-to-run}.
-\hfill \newline{}
-In this competition, you are tasked with developing a controller to enable a physiologically-based human model to navigate a complex obstacle course as quickly as possible. You are provided with a human musculoskeletal model and a physics-based simulation environment where you can synthesize physically and physiologically accurate motion. Potential obstacles include external obstacles like steps, or a slippery floor, along with internal obstacles like muscle weakness or motor noise. You are scored based on the distance you travel through the obstacle course in a set amount of time.
-The aim of the project is to study the problem and try to apply Deep Reinforcement Learning algorithms to replicate results of the top teams.
 \begin{itemize}
 	\item Code: \href{https://github.com/MultiBeerBandits/learning-to-run}{github.com/MultiBeerBandits/learning-to-run}
 	\item Video: \href{https://www.youtube.com/watch?v=HVOrhxypOGg}{youtube.com/watch?v=HVOrhxypOGg}
@@ -221,10 +167,7 @@ The aim of the project is to study the problem and try to apply Deep Reinforceme
 
 \tldatecventry{2018}{Computer Vision for Computer Art. A pencil writing on a virtual plane}{Image Analysis and Computer Vision Project}{}{}
 {
-Topics: Image Analysis, Feature Extraction, Tracking, Camera Calibration, 3D reconstruction. \newline{}
-Wouldn't be great to write or draw on any surface, without the need of ink, and obtain the result in digitalized format? The task of this project is to develop an algorithm that, given a video of someone drawing using a pen without ink, recovers the 3D trajectory of the pencil tip.
-Given that, it is possible to reconstruct the drawing, by simply keeping the part of the trajectory near the writing surface. 
-The project is implemented in MATLAB.
+Topics: Image Analysis, Feature Extraction, Tracking, Camera Calibration, 3D reconstruction.
 \begin{itemize}
 	\item Code: \href{https://github.com/EmilianoGagliardiEmanueleGhelfi/inkless-painting}{github.com/EmilianoGagliardiEmanueleGhelfi/inkless-painting}
 	\item Video: \href{https://www.youtube.com/watch?v=U7XAzXeBx-U}{youtube.com/watch?v=U7XAzXeBx-U}
@@ -234,14 +177,6 @@ The project is implemented in MATLAB.
 \tlcventry{2017}{2018}{Recommender System Challenge @ Polimi: Music Recommendation}{Recommender Systems Project}{}{}
 {
 Topics: Machine Learning, Recommender System, Personalized Recommendation.
-\newline{}
-I took part to the annual Kaggle competition on Recommender Systems held by Politecnico di Milano in 2017. That year topic was music recommendation, so we implemented and trained several Machine Learning algorithms to suggest songs to users based on their tastes.
-\newline{}
-We placed among the best teams in the competition and we were invited to present our approach and solutions to the recommendation problem[1].
-\newline{}
-We used Python, Numpy/Scipy, Jupyter Notebooks and C++ as technology tools to efficiently implement our ideas.
-\newline{}
-[1] https://www.slideshare.net/EmanueleGhelfi/recommender-system-challenge
 \begin{itemize}
 	\item Code: \href{https://github.com/MultiBeerBandits/recsys\_challenge\_2017}{github.com/MultiBeerBandits/recsys\_challenge\_2017}
 	\item Slides: \href{https://www.slideshare.net/EmanueleGhelfi/recommender-system-challenge}{slideshare.net/EmanueleGhelfi/recommender-system-challenge}
@@ -252,9 +187,6 @@ We used Python, Numpy/Scipy, Jupyter Notebooks and C++ as technology tools to ef
 \tldatecventry{2017}{CNN Quantization - Performance Evaluation}{Advanced Computer Architecture Project}{}{}
 {
 Topics: Convolutional Neural Networks, Quantization, Performance, Cache, Tensorflow, Caffe. 
-\newline{}
-For real world application, convolutional neural network(CNN) model can take more than 100MB of space and can be computationally too expensive. Therefore, there are multiple methods to reduce this complexity in the state of art. Ristretto is a plug-in to Caffe framework that employs several model approximation methods. For this project, first a CNN model is trained for Cifar-10 dataset with Caffe, then Ristretto will be used to generate multiple approximated versions of the trained model using different schemes. The goal of this project is the comparison of the models in terms of execution performance, model size and cache efficiency in the test and inference phase. The same steps are done with Tensorflow and Quantisation tool. The quantisation schemes of Tensorflow and Ristretto are then compared.
-\newline{}
 \begin{itemize}
 	\item Code: \href{https://github.com/EmilianoGagliardiEmanueleGhelfi/CNN-compression-performance}{github.com/EmilianoGagliardiEmanueleGhelfi/CNN-compression-performance}
 	\item Slides: \href{https://www.slideshare.net/EmanueleGhelfi/cnn-quantization}{slideshare.net/EmanueleGhelfi/cnn-quantization}
@@ -272,11 +204,9 @@ For real world application, convolutional neural network(CNN) model can take mor
 {
 \begin{itemize}
 \item Python
-\item Matlab
 \item C++
-\item Java
+\item Matlab
 \item C \#
-\item C
 \end{itemize}
 }
 \cventry{}{Robotics}{}{}{}
@@ -295,20 +225,6 @@ For real world application, convolutional neural network(CNN) model can take mor
 \item Caffe (and Ristretto Plugin)
 \end{itemize}
 }
-\cventry{}{Other Competences}{}{}{}
-{
-\begin{itemize}
-\item Numpy
-\item Scipy
-\item Scikit-learn
-\item Pandas
-\item OpenCV
-\item Latex
-\item Unity3D
-\item Vuforia, Framework for AR
-\end{itemize}
-}
-
 
 %----------------------------------------------------------------------------------------
 %	COMMUNICATION SKILLS SECTION
